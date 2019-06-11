@@ -10,6 +10,7 @@ import { ContactComponent } from './contact/contact.component';
 import { EventsComponent } from './events/events.component';
 import { ScheduleComponent } from './schedule/schedule.component';
 import { NewsComponent } from './news/news.component';
+import { CoursesComponent } from './courses/courses.component';
 
 @NgModule({
   declarations: [
@@ -20,13 +21,15 @@ import { NewsComponent } from './news/news.component';
     ContactComponent,
     EventsComponent,
     ScheduleComponent,
-    NewsComponent
+    NewsComponent,
+    CoursesComponent
   ],
   imports: [
     BrowserModule,
     RouterModule.forRoot([
       { path: '', component: HomeComponent },      
       { path: 'subscription', component: SubscriptionComponent },      
+      { path: 'courses', component: CoursesComponent },      
       { path: 'news', component: NewsComponent },      
       { path: 'events', component: EventsComponent },
       { path: 'contact', component: ContactComponent }, 
