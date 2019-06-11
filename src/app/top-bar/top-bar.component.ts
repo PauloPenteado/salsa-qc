@@ -11,6 +11,7 @@ export class TopBarComponent implements OnInit {
   who_we_are = "L'école";
   news = 'Nouvelles';
   courses_n_schedule = 'Cours et horaire';
+  schedule = 'Horaire';
   subscription = 'Inscription';
   events = 'Événements';
   contact = 'Contact';
