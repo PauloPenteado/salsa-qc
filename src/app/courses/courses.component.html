@@ -4,5 +4,8 @@
   <p>
     <a>{{ course.name }}</a>
   </p>
+  <p *ngIf="course.description">
+    Description: {{ course.description }}
+  </p>
   <hr>
 </div>
