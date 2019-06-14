@@ -1,9 +1,9 @@
 <h2>Courses</h2>
 
 <div *ngFor="let course of courses, let i = index">
-  <p>
-    <a>{{ course.name }}</a>
-  </p>
+  <h3>
+    <a routerLink="{{i}}" >{{ course.name }}</a>
+  </h3>
   <p *ngIf="course.description">
     Description: {{ course.description }}
   </p>
