@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { plans } from "../plans"
 
 @Component({
   selector: 'app-subscription',
@@ -6,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./subscription.component.css']
 })
 export class SubscriptionComponent implements OnInit {
+
+  plans = plans;
 
   constructor() { }
 
